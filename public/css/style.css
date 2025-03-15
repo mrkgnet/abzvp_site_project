@@ -1,0 +1,67 @@
+.active {
+    display: flex;
+ }
+
+ button[class="owl-prev"] {
+    transform: scale(2.5);
+    display: none !important;
+ }
+
+ button[class="owl-next"] {
+    transform: scale(2.5);
+    display: none !important;
+ }
+
+ /* این دستورات برای اضافه کردن به پلن استفاده شده  */
+ .active-plane {
+
+    /* border-left: 1px solid rgb(245, 107, 107); */
+    background-color: white;
+ }
+
+ .de-active-plane {
+    border-bottom: 1px solid rgb(245, 107, 107);
+ }
+
+ /* این دستورات برای اضافه کردن به پلن استفاده شده  */
+ .CardContent {
+    /* display: none !important; */
+ }
+
+ .CardContent.active {
+    /* display: block !important; */
+ }
+
+ .active-card {
+    display: block;
+ }
+
+ .tab {
+    background: transparent;
+ }
+
+ .tab.active {
+    background-color: white;
+ }
+
+ ::placeholder {
+   color: red;
+   opacity: 1; /* Firefox */
+ }
+
+ /* چسباندن فوتر به ته صفحه */
+ html {
+   height: 100% !important;
+}
+
+body {
+   min-height: 100% !important;
+   display: flex !important;
+   flex-direction: column !important;
+}
+
+#footerSite {
+   margin-top: auto !important;
+}
+
+ /* چسباندن فوتر به ته صفحه */
