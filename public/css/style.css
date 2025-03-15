@@ -88,3 +88,49 @@ body {
 }
 
  /* چسباندن فوتر به ته صفحه */
+ 
+/* دستورات مربوط به فوتر */
+html {
+   height: 100%;
+ }
+ 
+ body {
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ footer {
+   margin-top: auto;
+ }
+ 
+
+ 
+ /* دستورات مربوط به فوتر */
+
+
+ 
+/* دستورات مربوط به خط قرمز زیر منو */
+#offcavasRight ul li a {
+   margin-right: 15px;
+   position: relative;
+   color: #000000;
+ }
+ 
+ #offcavasRight ul li a::before {
+   content: "";
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 2px;
+   bottom: -4px;
+   left: 0;
+   background-color: #ff0000;
+   transform: scale(0);
+   transition: transform 0.3s ease;
+ }
+ 
+ #offcavasRight ul li a:hover::before {
+   color: #000;
+   transform: scaleX(1);
+ }

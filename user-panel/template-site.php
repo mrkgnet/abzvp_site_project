@@ -95,7 +95,7 @@
                   <span class="ms-3">داشبورد</span>
                </a>
             </li>
-          
+
             <li>
                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                   <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
@@ -112,7 +112,7 @@
                   <span class="flex-1 ms-3 whitespace-nowrap">خرید اکانت جدید</span>
                </a>
             </li>
-           
+
             <li>
                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                   <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -149,59 +149,57 @@
 
          <div class="grid grid-cols-2 gap-4 mb-4">
             <div class="flex items-center justify-center rounded-sm bg-gray-50 h-28 ">
-              
+
             </div>
             <div class="flex items-center justify-center rounded-sm bg-gray-50 h-28 ">
-               
             </div>
-            
-            
+
          </div>
-       </div>
+      </div>
    </div>
 
    <footer class="bg-stone-50 sm:mr-64  p-4">
-            <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-               <div class="">
-                  <a href="#" class="flex flex-col gap-2 my-3 items-center">
-                     <p class="text-sm text-gray-500 sm:text-center ">
-                        مارا در تلگرام دنبال کنید
-                     </p>
-                     <i class="fa-brands fa-telegram fa-beat-fade fa-lg my-3" style="color: #74C0FC;"></i>
-                  </a>
-               </div>
-
-
-               <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                  <div>
-                     <ul class="text-gray-500  font-medium">
-                        <li class="mb-4">
-                           <a href="#" class="hover:underline">خانه</a>
-                        </li>
-                        <li>
-                           <a href="#" class="hover:underline">Tailwind CSS</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div>
-                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-4">
-                           <a href="#" class="hover:underline ">android</a>
-                        </li>
-                        <li>
-                           <a href="#" class="hover:underline">ios</a>
-                        </li>
-                     </ul>
-                  </div>
-
-               </div>
-            </div>
-            <hr class="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
-            <div class="flex flex-col gap-2 mt-3 items-center">
-               <p class="text-sm text-gray-500 sm:text-center "> تمام حقوق مادی و معنوی محفوظ است.
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+         <div class="">
+            <a href="#" class="flex flex-col gap-2 my-3 items-center">
+               <p class="text-sm text-gray-500 sm:text-center ">
+                  مارا در تلگرام دنبال کنید
                </p>
-               <p> 2025©</p>
+               <i class="fa-brands fa-telegram fa-beat-fade fa-lg my-3" style="color: #74C0FC;"></i>
+            </a>
+         </div>
+
+
+         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+               <ul class="text-gray-500  font-medium">
+                  <li class="mb-4">
+                     <a href="#" class="hover:underline">خانه</a>
+                  </li>
+                  <li>
+                     <a href="#" class="hover:underline">Tailwind CSS</a>
+                  </li>
+               </ul>
             </div>
+            <div>
+               <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                  <li class="mb-4">
+                     <a href="#" class="hover:underline ">android</a>
+                  </li>
+                  <li>
+                     <a href="#" class="hover:underline">ios</a>
+                  </li>
+               </ul>
+            </div>
+
+         </div>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
+      <div class="flex flex-col gap-2 mt-3 items-center">
+         <p class="text-sm text-gray-500 sm:text-center "> تمام حقوق مادی و معنوی محفوظ است.
+         </p>
+         <p> 2025©</p>
+      </div>
 
    </footer>
    <!-- script of site  -->
