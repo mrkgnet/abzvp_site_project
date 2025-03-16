@@ -26,13 +26,13 @@ body{
  }
 
  button[class="owl-prev"] {
-    transform: scale(2.5);
-    display: none !important;
+    
+   
  }
 
  button[class="owl-next"] {
-    transform: scale(2.5);
-    display: none !important;
+    
+   
  }
 
  /* این دستورات برای اضافه کردن به پلن استفاده شده  */
