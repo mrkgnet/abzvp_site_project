@@ -10,7 +10,7 @@
                </div>
 
 
-               <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+               <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
                   <div>
                      <ul class="text-gray-500  font-medium">
                         <li class="mb-4">
