@@ -1,80 +1,76 @@
 /* Webfont: Yekan */
 @font-face {
-	font-family: 'iransnas';
-	
-	src:
-   url('../fonts/IRANSansXFaNum-Light.ttf') format('truetype'),
-   url('../fonts/IRANSansXFaNum-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
-	font-weight: normal;
-	font-style: normal;
-	text-rendering: optimizeLegibility;
-	font-display: auto;
+   font-family: 'iransnas';
+
+   src:
+      url('../fonts/IRANSansXFaNum-Light.ttf') format('truetype'),
+      url('../fonts/IRANSansXFaNum-Bold.ttf') format('truetype');
+   /* Safari, Android, iOS */
+   font-weight: normal;
+   font-style: normal;
+   text-rendering: optimizeLegibility;
+   font-display: auto;
 }
 
 
-body{
+body {
    font-family: 'iransnas';
    font-size: 10pt !important;
-   font-weight: bolder !important;
- 
+   font-weight: 800;
+   color: #374151;
 }
 
 
 
 
 .active {
-    display: flex;
- }
+   display: flex;
+}
 
- button[class="owl-prev"] {
-    
-   
- }
+button[class="owl-prev"] {}
 
- button[class="owl-next"] {
-    
-   
- }
+button[class="owl-next"] {}
 
- /* این دستورات برای اضافه کردن به پلن استفاده شده  */
- .active-plane {
+/* این دستورات برای اضافه کردن به پلن استفاده شده  */
+.active-plane {
 
-    /* border-left: 1px solid rgb(245, 107, 107); */
-    background-color: white;
- }
+   /* border-left: 1px solid rgb(245, 107, 107); */
+   background-color: white;
+}
 
- .de-active-plane {
-    border-bottom: 1px solid rgb(245, 107, 107);
- }
+.de-active-plane {
+   border-bottom: 1px solid rgb(245, 107, 107);
+}
 
- /* این دستورات برای اضافه کردن به پلن استفاده شده  */
- .CardContent {
-    /* display: none !important; */
- }
+/* این دستورات برای اضافه کردن به پلن استفاده شده  */
+.CardContent {
+   /* display: none !important; */
+}
 
- .CardContent.active {
-    /* display: block !important; */
- }
+.CardContent.active {
+   /* display: block !important; */
+}
 
- .active-card {
-    display: block;
- }
+.active-card {
+   display: block;
+}
 
- .tab {
-    background: transparent;
- }
+.tab {
+   background: transparent;
+}
 
- .tab.active {
-    background-color: white;
- }
+.tab.active {
+   background-color: white;
+}
 
- ::placeholder {
+::placeholder {
    color: red;
-   opacity: 1; /* Firefox */
- }
+   opacity: 1;
+   /* Firefox */
+}
 
- /* چسباندن فوتر به ته صفحه */
- html {
+/* چسباندن فوتر به ته صفحه */
+html {
    height: 100% !important;
 }
 
@@ -88,37 +84,37 @@ body {
    margin-top: auto !important;
 }
 
- /* چسباندن فوتر به ته صفحه */
- 
+/* چسباندن فوتر به ته صفحه */
+
 /* دستورات مربوط به فوتر */
 html {
    height: 100%;
- }
- 
- body {
+}
+
+body {
    min-height: 100%;
    display: flex;
    flex-direction: column;
- }
- 
- footer {
+}
+
+footer {
    margin-top: auto;
- }
- 
-
- 
- /* دستورات مربوط به فوتر */
+}
 
 
- 
+
+/* دستورات مربوط به فوتر */
+
+
+
 /* دستورات مربوط به خط قرمز زیر منو */
 #offcavasRight ul li a {
    margin-right: 15px;
    position: relative;
    color: #000000;
- }
- 
- #offcavasRight ul li a::before {
+}
+
+#offcavasRight ul li a::before {
    content: "";
    position: absolute;
    display: block;
@@ -129,9 +125,9 @@ html {
    background-color: #ff0000;
    transform: scale(0);
    transition: transform 0.3s ease;
- }
- 
- #offcavasRight ul li a:hover::before {
+}
+
+#offcavasRight ul li a:hover::before {
    color: #000;
    transform: scaleX(1);
- }
+}
