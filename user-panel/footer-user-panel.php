@@ -46,9 +46,14 @@
    
    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
    <script>
-      $(".openSideBar").click(function(e) {
+       $(".openSideBar").click(function(e) {
          $('#content_sidebar').toggleClass('translate-x-full');
-
+         $(".backSite").toggleClass('active');
+      });
+      $(".backSite").click(function (e) { 
+         $('#content_sidebar').toggleClass('translate-x-full');
+         $(".backSite").toggleClass('active');
+         
       });
    </script>
 

@@ -3646,10 +3646,6 @@ video {
     display: none;
   }
 
-  .sm\:w-1\/2 {
-    width: 50%;
-  }
-
   .sm\:w-1\/3 {
     width: 33.333333%;
   }
