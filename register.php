@@ -25,61 +25,61 @@
     <section class=" max-w-sm mx-auto min-h-screen w-full flex  justify-center items-center ">
         <form class=" flex  flex-col border rounded p-3 shadow-md w-full" action="#" method="post">
             <div class="my-4">
-                <h4 class="text-gray-700 block w-full text-center font-Yekan my-2.5">فرم ثبت نام در سایت</h4>
+                <h4 class="text-gray-700 block w-full text-center  my-2.5 text-base">فرم ثبت نام در سایت</h4>
             </div>
             <!-- input email -->
             <div class="flex flex-col mb-5">
-                <label class="text-sm font-Yekan font-medium text-gray-900 mb-2.5 items-center flex gap-1" for="email">
+                <label class="text-sm  font-medium text-gray-900 mb-2.5 items-center flex gap-1" for="email">
                     <span> ایمیل خود را وارد کنید</span>
                     <span class="text-red-600">(اجباری)</span>
                     <span class="text-red-600">*</span>
                 </label>
                 <div class="flex">
-                    <span class="flex items-center font-Yekan border bg-gray-200 p-1.5 border-l-0 rounded-tr rounded-br border-gray-400"><i class="fa-regular fa-envelope text-2xl"></i></span>
+                    <span class="flex items-center  border bg-gray-200 p-1.5 border-l-0 rounded-tr rounded-br border-gray-400"><i class="fa-regular fa-envelope text-2xl"></i></span>
                     <input
                         class="border border-gray-400 p-2 bg-gray-50 text-gray-900 shadow-sm w-full text-sm block focus:ring-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500 cursor-pointer rounded-tl-md rounded-bl-md"
-                        id="email" type="text" placeholder="ایمیل خود را وارد کنید ">
+                        id="email" type="email" placeholder="Enter Your Email" dir="ltr" required>
                 </div>
 
             </div>
 
             <!-- input password -->
             <div class="flex flex-col mb-5">
-                <label class="text-sm font-Yekan font-medium text-gray-900 mb-2.5 items-center flex gap-1" for="email">
+                <label class="text-sm  font-medium text-gray-900 mb-2.5 items-center flex gap-1" for="email">
                     <span> پسورد خود را وارد کنید</span>
                     <span class="text-red-600">(اجباری)</span>
                     <span class="text-red-600">*</span>
                 </label>
                 <div class="flex">
-                    <span class="flex items-center font-Yekan border bg-gray-200 p-1.5 border-l-0 rounded-tr rounded-br border-gray-400">
+                    <span class="flex items-center  border bg-gray-200 p-1.5 border-l-0 rounded-tr rounded-br border-gray-400">
                         <i class="fa-solid fa-unlock text-2xl"></i>
 
                     </span>
                     <input
                         class="border border-gray-400 p-2 bg-gray-50 text-gray-900 shadow-sm w-full text-sm block focus:ring-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500 cursor-pointer rounded-tl-md rounded-bl-md"
-                        id="email" type="text" placeholder="ایمیل خود را وارد کنید ">
+                        id="email" type="text" placeholder="Enter You pass" dir="ltr" required>
                 </div>
 
             </div>
 
             <div class="flex flex-col mb-5">
-                <label class="text-sm font-Yekan font-medium text-gray-900 mb-2.5 items-center flex gap-1" for="email">
+                <label class="text-sm  font-medium text-gray-900 mb-2.5 items-center flex gap-1" for="email">
                     <span>تکرار پسورد خود را وارد کنید</span>
                     <span class="text-red-600">(اجباری)</span>
                     <span class="text-red-600">*</span>
                 </label>
                 <div class="flex">
-                    <span class="flex items-center font-Yekan border bg-gray-200 p-1.5 border-l-0 rounded-tr rounded-br border-gray-400">
+                    <span class="flex items-center  border bg-gray-200 p-1.5 border-l-0 rounded-tr rounded-br border-gray-400">
                         <i class="fa-solid fa-unlock text-2xl"></i>
                     </span>
                     <input
                         class="border border-gray-400 p-2 bg-gray-50 text-gray-900 shadow-sm w-full text-sm block focus:ring-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500 cursor-pointer rounded-tl-md rounded-bl-md"
-                        id="email" type="text" placeholder="ایمیل خود را وارد کنید ">
+                        id="email" type="password" placeholder="re-type password" dir="ltr" required>
                 </div>
 
             </div>
             <div class=" mb-5">
-                <button class="font-Yekan border px-6 py-1.5 rounded-md w-full bg-red-500 text-white shadow focus:ring-red-800 focus:ring-2" type="submit">ثبت نام</button>
+                <button class=" border px-6 py-1.5 rounded-md w-full bg-red-500 text-white shadow focus:ring-red-800 focus:ring-2" type="submit">ثبت نام</button>
 
             </div>
 
@@ -87,7 +87,7 @@
                 <!-- <input class="w-3.5 h-3.5 bg-gray-600 border-0 border-gray-700 cursor-pointer rounded-md " type="checkbox" name="" id=""> -->
                 <label for="">
                     <span>آیا قبلا ثبت نام کردید ؟؟</span>
-                    <a href="./login.php" class="font-Yekan text-blue-600 border-b border-double">اینجا کلیک کنید</a>
+                    <a href="./login.php" class=" text-blue-600 border-b border-double">اینجا کلیک کنید</a>
                 </label>
             </div>
 
@@ -98,30 +98,8 @@
     </section>
     <!-- register -->
 
-
-
-
-
-
     <script>
-        $(document).ready(function() {
-            $('h1').addClass("font-Yekan");
-            $('h2').addClass("font-Yekan");
-            $('h3').addClass("font-Yekan");
-            $('h4').addClass("font-Yekan");
-            $('p').addClass("font-Yekan");
-            $('span').addClass("font-Yekan");
-            $('li').addClass("font-Yekan");
-            $('h1').addClass("font-Yekan");
-            $('button').addClass("font-Yekan");
-            $('a').addClass("font-Yekan");
-            $('th').addClass("font-Yekan");
-            $('td').addClass("font-Yekan");
-            $('label').addClass("font-Yekan");
-            $('placeholder').addClass("font-Yekan");
-            $('button').addClass("font-Yekan");
-
-        })
+       
     </script>
 
 </body>
